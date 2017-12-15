@@ -10,8 +10,8 @@
   <body>
     <form id="orderForm">
       <div class="radio">
-        <p>Select a size:</p>
-        <label>
+        <label for="pizza">
+          <p>Select Size:</p>
           <input type="radio" name="size" value="small">
           Small
         </label>
@@ -22,6 +22,27 @@
         <label>
           <input type="radio" name="size" value="large">
           Large
+        </label>
+        <br>
+        <label for="pizza">
+          <p>Select meat</p>
+          <input type="radio" name="meat" value="pepperoni">
+          Pepperoni
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="meat" value="sausage">
+          Sausage
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="meat" value="bacon">
+          Bacon
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="meat" value="none">
+          None
         </label>
         <br>
         <button type="submit" class="btn btn-primary">Add</button>
