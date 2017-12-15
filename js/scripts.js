@@ -5,7 +5,6 @@ return "Your pizza costs $" + (this.price);
 function Pizza(size, price, sauce, cheese, meat, veggies) {
   this.size = size;
   this.price = 0;
-  this.sause = sauce;
   this.cheese = cheese;
   this.meat = meat;
   this.veggies = veggies;
@@ -16,15 +15,12 @@ function Pizza(size, price, sauce, cheese, meat, veggies) {
   }else if(this.size === "large") {
     this.price += 25;
   }
-  if (this.meat === "pepperoni", "sausage", "bacon") {
-    this.price += 2;
-  }else if (this.meat === "none"){
-    this.price = 0;
-  }
 
-  this.price = this.price
 
   }
+
+
+  
 
 
 
