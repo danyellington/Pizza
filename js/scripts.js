@@ -26,23 +26,21 @@ function Pizza(size, price, sauce, cheese, meat, veggies) {
     }
 }
 
-function veggiePrice (veggies) {
-  for(var i = 0; i<= veggies.length; i++){
-}
-}
+//   function veggieCost (veggies) {
+//   for(var i = 0; i<= veggies.length; i++){
+// }
+// }
 Pizza.prototype.displayPrice = function(){
-  var veggiePrice = (this).veggiePrice(this.price);
-  var totalCost = (this.price + veggiePrice * 2)
   return "Your pizza costs $" + (this.price) + ".";
 }
 
 
-
-  //   var meat = this.meat.function();
-  //   for(var i = 0; i < meat.length; i++) {
-  //   this.price += 1;
-  // }
-
+//
+//     var meat = this.meat function(); {
+//     for(var i = 0; i < meat.length; i++) {
+//     this.price += 1;
+//   }
+// }
 
 //UI
   $(document).ready(function(){

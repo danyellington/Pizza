@@ -23,10 +23,6 @@ Program can return price total of selected items
 
 
 
-
-
-
-
 ## Technologies used:
 
 -html5
