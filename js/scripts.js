@@ -83,7 +83,6 @@ Contact.prototype.displayContacts = function(){
         var address = $("input#address").val();
         var number = $("input.number").val();
         var newPizza = new Pizza(size, cheese, toppings);
-        console.log(newPizza);
         var newContact = new Contact(name, phone, address);
       $("#result").append(newContact.fullName());
       newPizza.calcPrice();

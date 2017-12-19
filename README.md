@@ -15,11 +15,13 @@ This program is a website a user may use to order a pizza. The user may select s
 
 Program can receive and store user's input
 
-Program can add prices of items
+Program can add prices of items selected
 
-Program can return list of selected items
+Program can give total of items added
 
 Program can return price total of selected items
+
+Program can return text input
 
 
 
