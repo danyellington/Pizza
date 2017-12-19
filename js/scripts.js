@@ -57,11 +57,11 @@ Pizza.prototype.calcPrice = function(){
 }
 
 Pizza.prototype.displayPrice = function(){
-  return " Your pizza costs $" + (this.price) + ".";
+  return " Your pizza costs $" + (this.price);
 }
 
 Contact.prototype.displayContacts = function(){
-  return " Your pizza will be delivered to " + this.address + "." + " We can contact you at " + this.phone + "."
+  return " and will be delivered to " + this.address + "." + " We can contact you at " + this.phone + "."
 }
 
 //UI

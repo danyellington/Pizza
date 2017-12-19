@@ -5,19 +5,19 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-3.2.1.js"></script>
       <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Pizza!</title>
   </head>
   <body>
+    <h1>Create Your Own Custom Pizza</h1>
     <div>
       <form id="orderForm">
-        <div class="jumbotron">
+        <div class="container">
           <div class="radio">
             <label for="pizza">
-              <p>Select Size:</p>
+              <p><span id="size">Select Size:</span></p>
               <label>
               <input type="radio" name="size" value="small" required>
               Small
-            </label>
             </label>
             <label>
               <input type="radio" name="size" value="medium" required>
@@ -29,7 +29,7 @@
             </label>
             <br><br>
           </div><br><br>
-          <div class="jumbotron">
+          <div class="jumbotron" id="meat">
             <label for="pizza">
               <p>Select Meat</p>
               <input type="checkbox" name="meat" value="pepperoni">
@@ -52,7 +52,7 @@
             </label>
             <br><br>
           </div>
-          <div class="jumbotron">
+          <div class="jumbotron" id="veggie">
             <label>
               <p>Select Vegetable</p>
               <input type="checkbox" name="veggies" value="onion">
@@ -77,7 +77,7 @@
           <br>
           <br>
           <label>
-            <p>Cheese:</p><br>
+            <p id="cheese">Cheese:</p><br>
           <input type="radio" name="cheese" value="none">
             None
           </label>
@@ -88,10 +88,7 @@
           </label>
           <br><br><br>
           <br>
-          <div class="form-group">
-              <label for="number">Enter Quantity of Pizzas</label>
-              <input type="number" class="number">
-            </div><br>
+          <br>
           <p>Name</p>
           <input type="text" class="form-control" id="name">
         </input><br>
@@ -101,12 +98,16 @@
           <p>Address</p>
           <input type="text" class="form-control" id="address">
           </input>
+        </label>
           <br><br>
           <button type="submit" class="btn btn-primary">Submit Order</button>
       </form>
     </div>
   </div>
-    <div id="result">
+  <br><br>
+    <div class="jumbotron" id="info">
+      <p id="result"></p>
+      <br><br>
     </div>
   </body>
 </html>

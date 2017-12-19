@@ -1,0 +1,47 @@
+#veggie{
+    margin-bottom: 0px;
+    background-image: url(../img/veggies.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3d8e2;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    font-size: 20px;
+}
+
+#meat {
+    margin-bottom: 5px;
+    background-image: url(../img/pepperonis.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3d8e2;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#size {
+  text-align: left;
+  font-size: 20px;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  color: #d3d8e2;
+}
+
+#cheese {
+  text-align: left;
+  font-size: 20px;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  color: #d3d8e2;
+}
+
+#info {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:pink;
+  text-align:center;
+
+}
