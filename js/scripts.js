@@ -67,7 +67,6 @@ Contact.prototype.displayContacts = function(){
 //UI
   $(document).ready(function(){
   $("form#orderForm").submit(function(event){
-      // debugger;
       event.preventDefault();
       $("#result").empty();
         var toppings = [];
