@@ -13,7 +13,7 @@ This program is a website a user may use to order a pizza. The user may select s
 
 ## Specifications
 
-Program can receive and store user's input
+Program can receive and store a user's input
 
 Program can add prices of items selected
 
