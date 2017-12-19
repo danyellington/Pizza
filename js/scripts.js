@@ -11,18 +11,9 @@ function Pizza(size, cheese, toppings) {
   this.size = size;
   this.cheese = cheese;
   this.topping = toppings;
-  //this.number = number;
   this.price = 0;
-  // toppings.forEach(function(thing){
-  //   this.topping.push(thing);
-  // })
 }
 
-
-//   function veggieCost (veggies) {
-//   for(var i = 0; i<= veggies.length; i++){
-// }
-// }
 Pizza.prototype.calcPrice = function(){
   if (this.cheese === "none") {
     this.price -=2;
@@ -72,13 +63,6 @@ Pizza.prototype.displayPrice = function(){
 Contact.prototype.displayContacts = function(){
   return " Your pizza will be delivered to " + this.address + "." + " We can contact you at " + this.phone + "."
 }
-
-//
-//     var meat = this.meat function(); {
-//     for(var i = 0; i < meat.length; i++) {
-//     this.price += 1;
-//   }
-// }
 
 //UI
   $(document).ready(function(){
